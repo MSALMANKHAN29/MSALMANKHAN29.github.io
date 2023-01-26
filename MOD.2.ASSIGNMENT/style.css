@@ -1,0 +1,124 @@
+/* Base style */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    width: 90%;
+    padding: 15px;
+}
+
+.box {
+    border: 3px solid black;
+    background-color: rgb(93, 221, 221);
+}
+
+.right-box1 {
+    float: right;
+    border: 1px solid black;
+    background-color: rgb(104, 69, 199);
+    color:black;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -1px;
+    margin-right: -1px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.right-box2 {
+    float: right;
+    border: 1px solid black;
+    background-color: rgb(226, 50, 19);
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -1px;
+    margin-right: -1px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.right-box3 {
+    float: right;
+    border: 1px solid black;
+    background-color: rgb(145, 111, 17);
+    color:black;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -1px;
+    margin-right: -1px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.text{
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.Main-Heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* MEDIA QUERIES */
+
+/* FOR LARGER/DESKTOP DEVICES: */
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+
+}
+
+/* FOR MEDIUM/TABLET DEVICE: */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+
+    .column-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+
+    }
+}
+
+/* FOR SMALL/MOBILE SCREENS */
+@media (max-width:767px) {
+    .column-sm-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+}
